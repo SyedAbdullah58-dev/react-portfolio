@@ -3,6 +3,7 @@ import Navbar from './Components/Navbar'
 import Hero from './Components/Hero'
 import ProfilePic from "./assets/profile-pic.png"
 import About from './Components/About'
+import Technologies from './Components/Technologies'
 
 function App() {
 
@@ -17,6 +18,7 @@ function App() {
 <div className='container mx-auto px-8'><Navbar></Navbar>
 <Hero></Hero>
 <About></About>
+<Technologies></Technologies>
 </div></div>
     </>
   )
