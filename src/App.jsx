@@ -4,6 +4,7 @@ import Hero from './Components/Hero'
 import ProfilePic from "./assets/profile-pic.png"
 import About from './Components/About'
 import Technologies from './Components/Technologies'
+import Experience from './Components/Experience'
 
 function App() {
 
@@ -19,6 +20,7 @@ function App() {
 <Hero></Hero>
 <About></About>
 <Technologies></Technologies>
+<Experience></Experience>
 </div></div>
     </>
   )
