@@ -5,6 +5,7 @@ import ProfilePic from "./assets/profile-pic.png"
 import About from './Components/About'
 import Technologies from './Components/Technologies'
 import Experience from './Components/Experience'
+import Projects from './Components/Projects'
 
 function App() {
 
@@ -21,6 +22,7 @@ function App() {
 <About></About>
 <Technologies></Technologies>
 <Experience></Experience>
+<Projects></Projects>
 </div></div>
     </>
   )
