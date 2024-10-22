@@ -13,7 +13,7 @@ const Projects = () => {
             whileInView={{opacity:1, x: 0}}
             initial={{opacity:0,x:-100}}
             transition={{duration:0.5}}
-          className="w-full lg:w-1/4"><img width={150} height={150} className='rounded mb-6' src={project.image} alt={project.title}></img> </motion.div>
+          className="w-full lg:w-2/3 items-center  flex lg:justify-center "><img width={700} height={600} className='rounded mb-6' src={project.image} alt={project.title}></img> </motion.div>
         <motion.div
           whileInView={{opacity:1, x: 0}}
           initial={{opacity:0,x:100}}

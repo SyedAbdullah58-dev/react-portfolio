@@ -1,13 +1,11 @@
-import project1 from "../assets/projects/project-1.jpg";
-import project2 from "../assets/projects/project-2.jpg";
-import project3 from "../assets/projects/project-3.jpg";
-import project4 from "../assets/projects/project-4.jpg";
+import project1 from "../assets/projects/web1.jpg";
+import project2 from "../assets/projects/s5.jpg";
+import project3 from "../assets/JobsPage.jpg";
+import project4 from "../assets/rest_api_dotnetcore.jpg";
 
 export const HERO_CONTENT = `Passionate software engineer with a knack for building cutting-edge applications using the latest technologies. With expertise in C#, Dart, Flutter, .NET Core, and SQL Server, I bring a wealth of knowledge to every project I undertake. Whether it's developing robust backend systems or creating engaging user interfaces, I'm always up for a challenge.
 
-I take pride in writing clean, efficient code that delivers the best possible performance. My ability to learn quickly and adapt to new technologies has enabled me to stay ahead of the curve in a constantly evolving industry.
-
-As a skilled problem-solver and team player, I thrive in collaborative environments and enjoy working with cross-functional teams to deliver exceptional results. With a track record of delivering high-quality work on time and on budget, I'm confident in my ability to meet and exceed your expectations.
+I take pride in writing clean, efficient code that delivers the best possible performance.As a skilled problem-solver and team player, I thrive in collaborative environments and enjoy working with cross-functional teams to deliver exceptional results. With a track record of delivering high-quality work on time and on budget, I'm confident in my ability to meet and exceed your expectations.
 
 Let's connect to discuss how my skills and expertise can help drive your organization's success.`;
 
@@ -55,32 +53,32 @@ export const EXPERIENCES = [
 
 export const PROJECTS = [
   {
-    title: "E-Commerce Website",
+    title: "Employee Access Portal",
     image: project1,
     description:
-      "A fully functional e-commerce website with features like product listing, shopping cart, and user authentication.",
-    technologies: ["HTML", "CSS", "React", "Node.js", "MongoDB"],
+      "This project is complete revamp of an old Employe Portal developed with cutting edge technology and latest architechture. Build with micorservices architechture utilizing gateway pattern",
+    technologies: [".Net Core", "Microservices", "React", "Vue.js", "SQL SERVER"],
   },
   {
-    title: "Task Management App",
+    title: "Social Media App",
     image: project2,
     description:
-      "An application for managing tasks and projects, with features such as task creation, assignment, and progress tracking.",
-    technologies: ["HTML", "CSS", "Angular", "Firebase"],
+      "Built with Flutter, offers a seamless and engaging user experience. It features real-time messaging, media sharing, and personalized news feeds, all wrapped in a sleek and responsive design. The app leverages Flutter's cross-platform capabilities, ensuring consistent performance across both iOS and Android devices, while providing smooth animations, push notifications, and easy navigation for users to stay connected effortlessly.",
+    technologies: [ "Dart", "Flutter", "Firebase"],
   },
   {
-    title: "Portfolio Website",
+    title: "React Jobs Portal",
     image: project3,
     description:
-      "A personal portfolio website showcasing projects, skills, and contact information.",
-    technologies: ["HTML", "CSS", "React", "Bootstrap"],
+      "Our Job Portal, developed with React, is a dynamic platform connecting job seekers with employers. It offers a user-friendly interface, allowing candidates to search, apply, and track job applications effortlessly. Employers can post jobs, review applications, and manage listings efficiently.",
+    technologies: ["HTML", "CSS", "REACT"],
   },
   {
-    title: "Blogging Platform",
+    title: "EAP Portal Microservices Architecture",
     image: project4,
     description:
-      "A platform for creating and publishing blog posts, with features like rich text editing, commenting, and user profiles.",
-    technologies: ["HTML", "CSS", "Vue.js", "Express", "mySQL"],
+      "Our project, built using Microservices Architecture with Ocelot API Gateway, is designed to deliver a scalable and efficient system. Each service is independently developed, deployed, and maintained, allowing for modular functionality like user management, payment processing, and notifications. Ocelot acts as the API gateway, efficiently routing client requests to the appropriate microservice, ensuring secure and seamless communication.",
+    technologies: [".Net Core", "C#", "Microservices Architecture", "Rabbit MQ", "Ocelot"],
   },
 ];
 
